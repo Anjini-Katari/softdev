@@ -1,0 +1,30 @@
+def count_evens(nums):
+  counter = 0
+  for n in nums: 
+    if n % 2 == 0:
+      counter += 1
+  return counter
+
+def big_diff(nums):
+  min = nums[0]
+  max = nums[0]
+  for n in nums:
+    if n > max:
+      max = n
+    elif n < min:
+      min = n
+  return max - min
+
+def centered_average(nums):
+  min = nums[0]
+  max = nums[0]
+  sum = 0
+  for n in nums:
+    sum += n
+    if n > max:
+      max = n
+    elif n < min:
+      min = n
+  sum -= max
+  sum -= min
+  return sum // (len(nums) - 2)
