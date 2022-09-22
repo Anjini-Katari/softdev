@@ -1,7 +1,6 @@
-def same_first_last(nums):
-  if len(nums) >= 1:
-    if nums[0] == nums[len(nums) - 1]:
-      return True
+def first_last6(nums):
+  if nums[0] == 6 or nums[len(nums)-1] == 6:
+    return True
   return False
 
 def same_first_last(nums):
@@ -62,4 +61,17 @@ def has23(nums):
     return True
   return False
 
+arr = [0,1,2,3,6]
+a = [1, 2, 3]
+b = [7, 3]
 
+print(first_last6(arr))
+#should be true
+
+print(same_first_last(arr))
+#should be false 
+
+print(make_pi())
+#should be [3, 1, 4]
+
+print(common_end(a,b))
