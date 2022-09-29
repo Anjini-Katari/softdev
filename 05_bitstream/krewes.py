@@ -6,7 +6,7 @@ def choose():
 
     devos_list = krewes_file.split("@@@") # splits list by devo
     
-    for n in devos_list:
+    for n in devos_list:                          
         if n[0] == 2:
             krewes[2.append(str.split('$$$'))]
         if n[0] == 7:
