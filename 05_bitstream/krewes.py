@@ -1,15 +1,28 @@
 '''
-Just Kidding Apple Kids
+Just Kidding Apple Kids: Jeremy Kwok and Anjini Katari
 SoftDev
 DUO MISSION
 2022-09-28
-time spent: 
+time spent: 1.0 hour
 
 DISCO
+    -.append() adds an object to the end of a list
+    -.read() will read an imported file
+    -.split() divides the file into a list by whatever argument you put in 
 
 QCC
+    -similar variable names are very confusing and annoying
+    -why do we need to specify to read a file AFTER we import the file? Why can't it just automatically read it after we put 'r' for reading rights?
 
 OPS SUMMARY
+    sort()
+    -Splits krewes.txt using @@@, and then runs each part through obtain_devo_ducky(devo_info)
+
+    obtain_devo_ducky(devo_info)
+    -Splits devo_info by $$$, and then omits period and returns devo name and ducky name separated by a comma
+
+    choose()
+    -Randomly chooses a period, and devo-ducky pair
 
 '''
 
@@ -48,5 +61,5 @@ def choose():
     output = devo + " and Ducky " + ducky + " from period " + str(period)
     return output
 
-print(sort())
+sort()
 print(choose())
