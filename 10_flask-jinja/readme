@@ -1,0 +1,19 @@
+# DogDino: Anjini, Gabriel, Vivian
+# SoftDev
+# K10 - Using jinja and html templates
+# 2022-10-13
+# time spent: 0.5 hours
+
+"""
+DISCO:
+QCC:
+
+"""
+
+Q0: Removing render_template will make it so that you can't access the template folder and it would result in an error
+
+Q1: 127.0.0.1:5000/my_foist_template
+
+Q2: model_tmplt.html is the html template we want to yoink
+foo is a variable representing the title of the webpage, so if we set it so a string "fooooo", the title will become that string.
+collection is also a variable in the html template we replace with coll.
