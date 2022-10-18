@@ -1,0 +1,27 @@
+# DogDino: Anjini, Gabriel, Vivian
+# SoftDev
+# K10 - Using jinja and html templates
+# 2022-10-13
+# time spent: 0.5 hours
+
+"""
+DISCO:
+ * render_template is a function that takes in, as arguments, a file path relative to templates and as many parameters as you want. The parameters are then replaced in the html file
+ * You can pass in your own arguments into a function by writing each argument's name and it's value, separated by an equals sign
+ * render_template returns a string
+ * In an HTML template, you can put variables to be replaced by putting their name between {{ }}
+ * You can write for loops in Jinja by writing {% for item in collection %} and {% endfor %} and placing the content of the loop in between
+
+QCC:
+ * What if you place a non-HTML file into Jinja? (We were too lazy to try this out)
+ * What it you want your HTML file to contain double squirrely brackets to display on the webpage? How would you write this without it getting interpreted as Jinja syntax
+
+"""
+
+Q0: Removing render_template will make it so that you can't access the template folder and it would result in an error
+
+Q1: 127.0.0.1:5000/my_foist_template
+
+Q2: model_tmplt.html is the html template we want to yoink
+foo is a variable representing the title of the webpage, so if we set it so a string "fooooo", the title will become that string.
+collection is also a variable in the html template we replace with coll.

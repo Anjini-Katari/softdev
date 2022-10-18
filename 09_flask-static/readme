@@ -1,0 +1,13 @@
+# DogDino: Anjini, Gabriel, Vivian
+# SoftDev
+# K09 - Learning Static
+# 2022-10-11
+
+Static is a folder defined in Flask that stores files
+and allows you to access them in the web server. 
+
+foo gets downloaded when you access it via the webserver 
+
+foo.html opens up a webpage with text and stuff
+
+making a folder other than static will result in a Not found error
