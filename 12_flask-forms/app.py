@@ -4,6 +4,8 @@
 # 2022-10-17
 # time spent: 1hrs
 
+#request.method returns post
+
 from flask import Flask             #facilitate flask webserving
 from flask import render_template   #facilitate jinja templating
 from flask import request           #facilitate form submission
@@ -34,7 +36,7 @@ def disp_loginpage():
     return render_template( 'login.html' ) #
 
 
-@app.route("/auth", methods =['GET', 'POST']) #we need a 'GET' here, otherwise we get a method not allowed error
+@app.route("/auth", methods =['POST']) #we need a 'GET' here, otherwise we get a method not allowed error
 def authenticate():
     print("\n\n\n")
     print("***DIAG: this Flask obj ***")
