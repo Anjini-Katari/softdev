@@ -63,6 +63,8 @@ def authenticate():
         print(request.args['username'])
     print("***DIAG: request.headers ***")
     print(request.headers)
+    print("***DIAG: request.form ***")
+    print(request.form)
     return "Waaaa hooo HAAAH"  # response to a form submission
 
 
