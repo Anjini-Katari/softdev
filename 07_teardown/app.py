@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+from flask import Flask
+
+# your heading here
+
+=======
 """
 AJJ Eating Blue Pho: Joseph Wu, Jun Hong Wang, Anjini Katari
 07_teardown
@@ -7,12 +13,17 @@ time spent: 0.5 hrs
 """
 
 from flask import Flask
+>>>>>>> e7d6be13f2df0d6df2db42c91cb8f904f05c8c93
 
 app = Flask(__name__) # Q0: Where have you seen similar syntax in other langs?
 
 @app.route("/") # Q1: What points of reference do you have for meaning of '/'?
 def hello_world():
+<<<<<<< HEAD
+    #print(__name__) # Q2: Where will this print to? Q3: What will it print?
+=======
     print(__name__) # Q2: Where will this print to? Q3: What will it print?
+>>>>>>> e7d6be13f2df0d6df2db42c91cb8f904f05c8c93
     return "No hablo queso!"  # Q4: Will this appear anywhere? How u know?
 
 app.run()  # Q5: Where have you seen similar constructs in other languages?
@@ -21,13 +32,28 @@ app.run()  # Q5: Where have you seen similar constructs in other languages?
 '''
 DISCO:
 * We can see what's returned in the webpage itself, as plain text.
+<<<<<<< HEAD
+* There's no value for name, so the name doesn't show. 
+=======
 * There's no value for name, so the name doesn't show.
 * The __name__ convention (2 underscores before and after var name) might be Python OOP convention
+>>>>>>> e7d6be13f2df0d6df2db42c91cb8f904f05c8c93
 
 QCC:
 0. Looks like a constructor from object oriented programming, like Java from last year.
 1. Could refer to location (like in local files?), based on what route means, as well as the meaning of / in the terminal.
 2. Print to webpage?
+<<<<<<< HEAD
+3. 
+4. Since it's return, it probably won't say anything until we print it. However, since it launches a webpage, it might be visible somewhere there, like in the console. 
+5. app.run() looks like it's making the object app do something, like in an object-oriented programming language
+...
+
+INVESTIGATIVE APPROACH:
+<Your concise summary of how
+ you and your team set about
+ "illuminating the cave of ignorance" here...>
+=======
 3. Doesn't print anything, since we don't know what name is, but when we assign a value to name, then it might print something. 
 4. Since it's return, it probably won't say anything until we print it. However, since it launches a webpage, it might be visible somewhere there, like in the console. 
 5. app.run() looks like it's making the object app do something, like in an object-oriented programming language
@@ -46,4 +72,5 @@ However, at home, we couldn't open the link, so we had to assume again.
 * thought about app.route() and its function
 * thought about what would be displayed when printed and returned
 * at home, we couldn't get the link, so we assumed that we needed to have a local copy of flask
+>>>>>>> e7d6be13f2df0d6df2db42c91cb8f904f05c8c93
 '''
