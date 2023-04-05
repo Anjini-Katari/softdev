@@ -1,21 +1,19 @@
-Team Phantom Tollbooth :: Clyde Sinclair, Fierce Dragon
-SoftDev pd0
+Arcanauts: May and Anjini
+SoftDev pd7
 K27 -- Basic functions in JavaScript
 2023-04-03t
 
 DISCO
 -----------------------------------------------------------------
-* Ooooh, ___
-* Aaah-haa!  ____
-* ...
+* We were able to figure out how to fix out git cloning problems!
+  QAF post is on its way
 =================================================================
 
 QCC
 -----------------------------------------------------------------
-* Why...?
-* Huh?
-* Teh whah now?
-* ...
+* The biggest hurdles were remembering how to open an html file and
+  basic operator syntax
+* Can run js files in the terminal or do you need to have an html file?
 =================================================================
 
 

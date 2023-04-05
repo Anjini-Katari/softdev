@@ -1,5 +1,5 @@
-;Team Phantom Tollbooth :: Clyde Sinclair, Fierce Dragon
-;SoftDev pd0
+;Arcanauts: May and Anjini
+;SoftDev pd7
 ;K27 -- Basic functions in JavaScript
 ;2023-04-03t
 
