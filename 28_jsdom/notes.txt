@@ -1,0 +1,5 @@
+DISCOS:
+ * when you type in the function name it'll give you info on the function 
+
+QCCS:
+ * How does it know what color to display if there's more than one color listed in class? 
