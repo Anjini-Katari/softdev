@@ -1,23 +1,3 @@
-/*
-   your PPTASK:
-   
-   Test drive each bit of code in this file,
-    and insert comments galore, indicating anything
-     you discover,
-    	have questions about,
-    		or otherwise deem notable.
-    		
-    		Write with your future self or teammates in mind.
-    		
-    		If you find yourself falling out of flow mode, consult 
-    		other teams
-    		MDN
-
-   A few comments have been pre-filled for you...
-   
-   (delete this block comment once you are done)
-*/
-
 // Team Acronauts :: Anjini and May
 // SoftDev pd07
 // K28 -- Getting more comfortable with the dev console and the DOM
@@ -94,8 +74,47 @@ var stripe = function() {
 
 //insert your implementations here for...
 // FIB
+function fib(n) {
+    if(n == 0){
+        return 0
+    }
+    else if(n == 1){
+        return 1
+    }
+    else{
+        return(fib(n-2) + fib(n-1))
+    }
+}
+
 // FAC
+
+function fact(n) {
+  if(n < 2){
+      return 1
+  }
+  else{
+      return (n * fact(n-1))
+  }
+}
+
 // GCD
+function gcd(x, y){
+  if (x<y){
+    var small = x
+    var big = y
+  }
+  else{
+    var small = y
+    var big = x
+  }
+
+  for(var i = small; i>0; i--){
+    if (big % i == 0){
+      return i
+    }
+  }
+}
+
 
 // In addition to the style shown above,
 //  you are encouraged to test drive the "arrow function syntax" as shown below.

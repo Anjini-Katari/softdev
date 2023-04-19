@@ -1,3 +1,8 @@
+Team Acronauts :: Anjini and May
+SoftDev pd07
+K28 -- Getting more comfortable with the dev console and the DOM
+2023-04-17m
+
 DISCOS:
  * when you type in the function name it'll give you info on the function 
 
