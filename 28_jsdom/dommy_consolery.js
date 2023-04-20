@@ -82,8 +82,21 @@ function fib(n) {
         return 1
     }
     else{
-        return(fib(n-2) + fib(n-1))
+      // fib.setAttribute("AHAHA",fib(10))
+      return(fib(n-2) + fib(n-1))
     }
+}
+
+function print(){
+  var ans = document.createElement("li")
+  ans.innerHTML = fib(10)
+  document.getElementById("thelist").appendChild(ans)
+  var ans2 = document.createElement("li")
+  ans2.innerHTML = fact(10)
+  document.getElementById("thelist").appendChild(ans2)
+  var ans3 = document.createElement("li")
+  ans3.innerHTML = gcd(10,5)
+  document.getElementById("thelist").appendChild(ans3)
 }
 
 // FAC
