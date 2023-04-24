@@ -91,6 +91,8 @@ function print(){
   var ans = document.createElement("li")
   ans.innerHTML = fib(10)
   document.getElementById("thelist").appendChild(ans)
+  // var show = document.getElementById("thelist")
+  // show.appendchild(ans)
   var ans2 = document.createElement("li")
   ans2.innerHTML = fact(10)
   document.getElementById("thelist").appendChild(ans2)
@@ -137,4 +139,4 @@ const myFxn = (param1, param2) => {
   return retVal;
 };
 
-
+print()
