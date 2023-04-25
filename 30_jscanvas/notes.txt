@@ -6,8 +6,7 @@
        HTML file for JavaScript canvas work
     QCC
     Why does only drawRect run in the code above, even when the console prints circ?
-    The first click never draws anything. 
-
+    Why doesn't the first click do anything?
 
   -->
 
