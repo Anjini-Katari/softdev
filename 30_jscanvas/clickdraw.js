@@ -12,17 +12,28 @@ var ctx = c.getContext("2d");
 var mode = "rect";
 
 //toggle = switch | button that switches rectangle and circle 
+<<<<<<< HEAD
 //var toggleMode = function(e) {
+=======
+var toggleMode = function(e) {
+    var rectcirc = document.getElementById("buttonToggle");
+    rectcirc.addEventListener('click', toggleMode);
+>>>>>>> 6a52701ace93dfad59805b94cf41fae51396c8c8
 
     var toggleMode = (e) => {
         console.log("toggling...");
         if(mode == "rect") {
             mode = "circle"
+<<<<<<< HEAD
             //console.log("circle");
+=======
+            console.log("circle");
+>>>>>>> 6a52701ace93dfad59805b94cf41fae51396c8c8
 
         }
         else {
             mode = "rect"
+<<<<<<< HEAD
             //console.log("rect");
 
         }
@@ -83,3 +94,10 @@ var mode = "rect";
     // var clearB = ;
     // clearB. ;
     
+=======
+            console.log("rect");
+
+        }
+    }
+}
+>>>>>>> 6a52701ace93dfad59805b94cf41fae51396c8c8
