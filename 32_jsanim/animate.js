@@ -1,6 +1,9 @@
 //access canvas and bttons via DOM (update HTML source to align)
 var c = document.getElementById("playground");
+<<<<<<< HEAD
 var ctx = c.getContext("2d");
+=======
+>>>>>>> 862998f1eb730712dc83c7f31c81c153f9673268
 var dotButton = document.getElementById("circle");
 var dvdButton = document.getElementById("dvd");
 var stopButton = document.getElementById("stop");
@@ -8,7 +11,11 @@ var stopButton = document.getElementById("stop");
 var radius = 100;
 var radius_inc = 1;
 var growing = true;
+<<<<<<< HEAD
 var requestID;
+=======
+
+>>>>>>> 862998f1eb730712dc83c7f31c81c153f9673268
 var drawCircle = () => {
     ctx.beginPath();
     ctx.fillStyle = "red";
@@ -41,13 +48,19 @@ var dvdLogoSetup = function() {
     window.cancelAnimationFrame( requestID );
 
     //demensions of the image itself
+<<<<<<< HEAD
     var rectWidth = 40;
     var rectHeight = 60;
+=======
+    var rectWidth = 400;
+    var rectHeight = 600;
+>>>>>>> 862998f1eb730712dc83c7f31c81c153f9673268
 
     //
     var rectX = Math.random() * 100;
     var rectY = Math.random() * 100;
 
+<<<<<<< HEAD
     var xvel = 0;
     var yvel = 0;
 
@@ -74,6 +87,15 @@ var dvdLogoSetup = function() {
 
 var clear = (e) => {
     //e.preventDefault(); // Q: what dis? 
+=======
+    // var xvel = ;
+    // var yvel = ;
+}
+
+
+var clear = (e) => {
+    e.preventDefault(); // Q: what dis? 
+>>>>>>> 862998f1eb730712dc83c7f31c81c153f9673268
     ctx.clearRect(0,0,c.width,c.height);
 };
 
