@@ -26,6 +26,8 @@ for (x=0; x < trs.length; x++) {
 
 table.addEventListener('click', clicky, true);
 // table.addEventListener('click', clicky, false);
+//False is bubbling and True is capturing (?)
+
 
 // Q: When user clicks on a cell, in what order will the pop-ups appear?
 // when true, the order is table, name, row 
